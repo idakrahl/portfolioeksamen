@@ -1,0 +1,178 @@
+@media (min-width: 800px) {
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-right: 2.5%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-top: -2.5%;
+  }
+
+  nav li a {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .back {
+    margin-left: 1%;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: blue;
+    font-style: italic;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .beskrivelse {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.031);
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  img:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 17%;
+  }
+  img {
+    max-width: 70%;
+  }
+  .pitch {
+    margin-left: -20%;
+  }
+  .website {
+    margin-right: 15%;
+  }
+  .emnesite {
+    margin-left: -15%;
+  }
+  .temaopgave img {
+    width: 35%;
+    margin-left: 32%;
+    margin-top: -3%;
+  }
+  .temaopgave img:hover {
+    width: 37%;
+  }
+
+  .redesign {
+    margin-left: -18%;
+  }
+
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    font-size: 12px;
+  }
+
+  footer ul {
+    list-style: none;
+    line-height: 1.25em;
+    justify-content: end;
+    display: grid;
+    text-align: right;
+  }
+
+  .ilk {
+    font-weight: lighter;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-right: 2.5%;
+  }
+  nav ul {
+    list-style: none;
+    margin-top: -2.5%;
+  }
+
+  nav li a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1.5%;
+  }
+  .temaopgave {
+    width: 90%;
+    margin-left: 5%;
+  }
+  h1 {
+    margin-top: 10%;
+    margin-bottom: 8%;
+  }
+  img:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+  }
+  main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .back {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    color: black;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  a:hover {
+    color: blue;
+    font-style: italic;
+  }
+  img {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    font-size: 12px;
+  }
+
+  footer ul {
+    list-style: none;
+    line-height: 1.25em;
+    justify-content: end;
+    display: grid;
+    text-align: right;
+  }
+
+  .ilk {
+    font-weight: lighter;
+  }
+}
