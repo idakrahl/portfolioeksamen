@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <title>Pilotsite</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Forside</a>
+          </li>
+          <li>
+            <a href="billeder.html">Billeder</a>
+          </li>
+          <li>
+            <a href="yt.html">YouTube</a>
+          </li>
+          <li>
+            <a href="layout.html">Layoutdiagram</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>PASSION FOR MUSIK</h1>
+      <section id="tekst">
+        <h2>OKEO BEATS</h2>
+        <p>
+          Bag lyden fra OKEO BEATS, finder du Benjamin Okeo. En passioneret og ambitøs producer. Okeo bruger det meste af sin tid i sit studie på Vesterbro, hvor han producerer alle sine beats. Okeo er især inspireret af amerikansk hiphop og R&B. Hans seneste udgivelse, er nummeret
+          <a href="https://open.spotify.com/track/1pXiO2TJZw3n2BzstJxWao?si=e226e84255fa470d">"3AM"</a> med det unge, amerikanske R&B-talent, Eli Derby. Afspil videoen og kom med ind i universet bag OKEO BEATS!
+        </p>
+        <div id="video_container">
+          <div id="volume_container">
+            <input type="range" min="1" max="100" value="50" id="volControl" class="slider" />
+          </div>
+          <video id="video_file">
+            <source src="billeder/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div id="controls">
+          <div id="play"></div>
+          <div id="stop"></div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="js.js"></script>
+  </body>
+</html>

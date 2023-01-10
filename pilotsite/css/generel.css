@@ -1,0 +1,222 @@
+@media (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  @font-face {
+    font-family: "BebasNeue";
+    src: url("../font/BebasNeue-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "CutiveMono";
+    src: url("../font/CutiveMono-Regular.ttf");
+  }
+
+  body {
+    display: grid;
+    grid-auto-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: "BebasNeue";
+  }
+
+  header ul {
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.436);
+    padding: 10px;
+  }
+  header ul li {
+    list-style: none;
+  }
+  nav a {
+    font-family: monospace;
+    text-decoration: none;
+    color: white;
+  }
+  main {
+    margin: 0 20vh 1em 45px;
+  }
+  video {
+    max-width: 100%;
+  }
+
+  #tekst {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2;
+    margin-left: 9%;
+  }
+  h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+    font-size: 100px;
+    width: 30%;
+    margin-left: 9%;
+  }
+  #h1_stills {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+    font-size: 100px;
+    width: 20%;
+    margin-left: 9%;
+  }
+  #h1_layout {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+    font-size: 100px;
+    width: 40%;
+    margin-left: 9%;
+  }
+  #tekst h2 {
+    height: 7%;
+    margin-top: -5%;
+    grid-column: 1;
+    grid-row: 1;
+    color: white;
+    font-size: 40px;
+    width: 41%;
+    background-color: rgba(0, 0, 0, 0.68);
+  }
+  #tekst p {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.32);
+    font-family: monospace;
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: -155%;
+    margin-bottom: 30%;
+    font-size: 16.5px;
+    padding: 5%;
+    line-height: 2em;
+  }
+  #video_container {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: 20px rgba(255, 255, 255, 0.32) solid;
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: -77.5%;
+  }
+
+  #volume_container {
+    position: absolute;
+    left: 4%;
+    bottom: 2%;
+    width: 40%;
+  }
+  .slider {
+    appearance: none;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #b9bcb2; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.4; /* Set transparency (for mouse-over effects on hover) */
+    transition: opacity 0.2s;
+  }
+
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+
+  #controls {
+    display: flex;
+    margin-top: 70%;
+    margin-right: 32%;
+    padding: 2em;
+  }
+  #play,
+  #stop {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.32);
+    width: 15%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+  }
+  #play {
+    background-size: 75%;
+    background-image: url("../billeder/play.svg");
+  }
+  #stop {
+    background-size: 70%;
+    background-image: url("../billeder/stop.svg");
+  }
+
+  #stils {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  #baggrund {
+    width: 44.5%;
+    border: 10px white solid;
+  }
+
+  #face {
+    width: 40.9%;
+    border: 10px white solid;
+  }
+  #hoej {
+    margin-bottom: 70.5%;
+    width: 26.25%;
+    border: 10px white solid;
+  }
+
+  #bred {
+    margin-bottom: 70.5%;
+    width: 59.25%;
+    border: 10px white solid;
+  }
+  #beskriv {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 39%;
+    font-size: 20px;
+  }
+  #tekst_bg {
+    color: black;
+    background-color: white;
+  }
+
+  #tekst_face {
+    color: white;
+    background-color: black;
+  }
+
+  #beskriv2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60.5%;
+    font-size: 20px;
+  }
+  #tekst_hoej {
+    color: black;
+    background-color: white;
+  }
+
+  #tekst_bred {
+    color: white;
+    background-color: black;
+  }
+  #layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #layout img {
+    width: 100%;
+    padding: 1em;
+  }
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../font/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "CutiveMono";
+  src: url("../font/CutiveMono-Regular.ttf");
+}
+body {
+  background-image: url(../billeder/oldschool.png);
+  background-size: cover;
+}
+header ul {
+  display: flex;
+  gap: 1em;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.436);
+  padding: 10px;
+}
+header ul li {
+  list-style: none;
+}
+nav a {
+  font-family: monospace;
+  text-decoration: none;
+  color: white;
+}
