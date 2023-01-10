@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/generel2.css" />
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico" />
+    <title>Spil</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="back" href="grund_ani.html">&lt;</a>
+        <ul>
+          <li>
+            <a href="mywork.html"><strong>PORTFOLIO</strong> </a>
+          </li>
+          <li>
+            <a href="about.html"><strong>OM MIG</strong> </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="spillet">
+      <div class="spilopgave">
+        <h1>TEMAOPGAVE</h1>
+        <h1 class="spil_under">SPIL</h1>
+      </div>
+      <h2>STIL</h2>
+      <div class="grid_2">
+        <img src="imgs/joan_cornella.png" alt="joan_cornella" class="joan_cornella" />
+        <div>
+          <p class="jc_stil">Det første vi skulle gøre var at vælge hvilken stil vi ville udvikle vores spildesign i. Vi kunne vælge mellem de følgende stile:</p>
+          <p class="jc_stil"><em> Kawaii, Two Dots, Year Walk, Flat Design, Space up, G30, Toca Doctor, Toca Band, Year Walk, Liza Vertudaches, Joan Cornella, Matisjonen og Jéróme Masi. </em></p>
+          <p class="jc_stil">Jeg valgte at designe mit spil i en Joan Cornella-stil. Jeg har gjort brug af den rød/orange stroke som Cornella benytter. Derudover har jeg lavet min egen fortolkning af det akavede udtryk som Cornellas karakterer har.</p>
+        </div>
+      </div>
+      <h2 class="spilide">SPIL-IDÉ</h2>
+      <div class="grid_2">
+        <div>
+          <h5 class="papirproto">PAPIRPROTOYPE</h5>
+          <p>Herefter begyndte jeg at planlægge, hvad der skulle ske i mit spil. Til det lavede jeg en papirprototype for at få en hurtigt overblik over hvad mit spil skulle kunne.</p>
+          <h5 class="papirproto">SPILLET</h5>
+          <p>
+            En mand på en bar er alt for fuld. Som spiller, er det din opgave at gøre ham mere ædru, så han tager hjem. På skærmen falder en masse cognacflasker, øl- og vandglas ned. Trykker du enten et af ølglassene eller en af cognacflaskerne væk, bliver manden mere ædru og du får 1 point. Trykker
+            du derimod på et af vandglassene, mister du 1 liv. Du har 3 liv i alt. Du skal fange minimum 15 ølglas/cognacflasker (15 points) for at gennemføre spillet.
+          </p>
+        </div>
+        <img src="imgs/papirprototype.png" alt="papirprototype" class="papirprototype" />
+      </div>
+
+      <div class="grid_3">
+        <div>
+          <h2>AKTIVITETSDIAGRAM OG STATE MACHINE DIAGRAM</h2>
+          <p>For at beskrive spillets interaktive systemer, skulle vi oprette et aktivitetsdiagram. Aktivitetsdiagrammet beskriver en aktivitet, hvor ting sker i en bestemt rækkefølge, men hvor det ikke altid er det samme der sker hver gang aktiviteten udføres.</p>
+          <p>Senere i processen skulle vi også lave et state machine diagram. Dette form for diagram er mere detaljeret. Det fortæller hvilke "states" aktiviterne er i. Diagrammet viser disse "states", hvordan de er forbundet og hvad der kan lede fra en state til en anden.</p>
+        </div>
+        <img src="imgs/state.png" alt="state" class="state" />
+      </div>
+      <img src="imgs/aktivitet.png" alt="aktivitet" class="aktivitet" />
+      <h2>Illustrator</h2>
+      <p>
+        Jeg har gjort brug af asymmetri på spillets karakterer, for at gøre dem mere livlige. Jeg har brugt solid drawing til spil-elementerne (øllene, vandglassene og cognacflaskerne) for at gøre dem mere tredimensionelle og livagtige. Figurerne bærer præg af at være computer-genereret. Det er med
+        sit tegneserieagtige udtryk tydeligt, at der er tale om et digitalt design. Udover det er karaktererne, genstandene og omgivelserne virkelighedsnære. Alle karakterer, spilelementer og spilskærme er rentegnet efter håndtegnede skitser i Illustrator.
+      </p>
+      <div class="grid_2">
+        <div class="spilelementer">
+          <h5 class="underkategori">FIGURER OG SPILELEMENTER</h5>
+
+          <img src="imgs/designs.png" alt="designs" class="designs" />
+        </div>
+        <div class="gamescreen">
+          <h5 class="underkategori">SPILSKÆRM</h5>
+
+          <img src="imgs/spilskaerm.png" alt="spilskaerm" class="spilskaerm" />
+        </div>
+      </div>
+      <div class="grid_2">
+        <div class="java">
+          <h2>Javascript</h2>
+          <p>Alt det overstående bliver gjort levende ved brug af JavaScript.</p>
+          <p>
+            Med JavaScript kan vi vælge ethvert HTML-element ved brug af funktionen querySelector (f.eks. <em> document.querySelector("#vand_container"). </em> For at gøre disse spilelementer levende, tilføjer vi events, som f.eks. et klik. I mit spil kan det bl.a. se således ud:
+            <em>"document.querySelector("#vand_container").addEventListener("click", forsvind_glas);" </em>. Mit spil ved nu, at når der klikkes på <em>"#vand_container"</em>, skal det gå videre til funktionen <em>"function forsvind_glas()"</em>, der igen fortæller, at glassen skal forsvinde (ved at
+            vælge forsvindingsanimationen i CSS) og genstartes i en random position.
+          </p>
+        </div>
+        <img src="imgs/javascript.png" alt="javascript" class="javascript" />
+      </div>
+      <a href="t4_animation/design/kode/index.html" target="_blank"><h3 class="opgaveloes">SE MIN OPGAVELØSNING HER</h3></a>
+    </main>
+    <footer>
+      <ul>
+        <li class="ilk">
+          <em> Ida Louise Krahl </em>
+        </li>
+        <li>
+          <strong> Multimediedesign </strong>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
