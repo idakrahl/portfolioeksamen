@@ -1,0 +1,80 @@
+.center {
+  display: block;
+}
+img {
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  border: 3px solid red;
+  border-radius: 80px;
+  padding: 5px;
+  max-width: 100%;
+}
+footer > ul > li {
+  background-color: rgba(222, 184, 135, 0.15);
+}
+nav > ul > li {
+  background-color: rgba(222, 184, 135, 0.15);
+}
+dl {
+  background-color: rgba(222, 184, 135, 0.15);
+  padding: 1em;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: red;
+  border: 2px solid red;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+h3 {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  font-family: "Courier New", Courier, monospace;
+  color: tomato;
+}
+
+dd {
+  font-family: "Courier New", Courier, monospace;
+}
+dt {
+  font-family: "Courier New", Courier, monospace;
+  color: tomato;
+}
+
+body {
+  background-color: cornsilk;
+  padding-left: 5cm;
+  padding-right: 5.5cm;
+}
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: burlywood;
+}
+a:active {
+  color: red;
+}
+
+body * {
+  box-sizing: border-box;
+}
