@@ -1,0 +1,49 @@
+@media (min-width: 800px) {
+  nav {
+    font-family: monospace;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  a {
+    color: gray;
+  }
+
+  a:hover {
+    color: blue;
+  }
+
+  a:active {
+    color: gray;
+  }
+  h1 {
+    font-family: monospace;
+    font-size: 40px;
+  }
+  h2 {
+    font-family: monospace;
+    font-size: 23px;
+  }
+  h3 {
+    font-family: monospace;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .farver {
+    width: 40%;
+  }
+  .papirproto1 {
+    width: 40%;
+  }
+  .papirproto2 {
+    width: 40%;
+  }
+  .papirproto3 {
+    width: 40%;
+  }
+}

@@ -1,0 +1,121 @@
+@media (min-width: 800px) {
+  body {
+    background-color: beige;
+  }
+  h1 {
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkseagreen;
+  }
+  h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkolivegreen;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkseagreen;
+  }
+  .figurer {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+  }
+  .spilelementer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0%;
+  }
+  .first {
+    width: 50%;
+    margin-left: 0%;
+  }
+  .BG {
+    width: 50%;
+    margin-left: 50.5%;
+    margin-top: 0%;
+  }
+  .vinder {
+    width: 50%;
+  }
+  .taber {
+    width: 50%;
+    margin-top: -28.75%;
+    margin-left: 50.5%;
+  }
+  #godting {
+    width: 40%;
+    margin-top: 30%;
+    margin-left: -90%;
+    margin-bottom: 5%;
+  }
+  .daarligting1 {
+    width: 60%;
+    margin-top: 27%;
+    margin-left: -130%;
+    margin-bottom: 5%;
+  }
+  .daarligting2 {
+    width: 32%;
+    margin-top: -65%;
+    margin-left: 145%;
+    margin-bottom: 5%;
+  }
+  .mand {
+    width: 25%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .bartender {
+    width: 23%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .flaskeoel {
+    width: 18%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .start {
+    width: 35%;
+  }
+  .luk {
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .tid {
+    width: 5%;
+    margin-left: 5%;
+  }
+  .points {
+    width: 15%;
+    margin-left: 5%;
+  }
+  .liv {
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  nav {
+    font-family: monospace;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  a {
+    color: gray;
+  }
+
+  a:hover {
+    color: blue;
+  }
+
+  a:active {
+    color: gray;
+  }
+}

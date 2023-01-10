@@ -1,0 +1,21 @@
+nav {
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: gray;
+}

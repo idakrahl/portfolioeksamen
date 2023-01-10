@@ -1,0 +1,320 @@
+@media (min-width: 800px) {
+  #screen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: antiquewhite;
+    position: relative;
+  }
+  #game {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  #game_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: url(../illustrator/spilskaerm.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  /* #game_foreground {
+} */
+  #game_ui {
+    width: 100%;
+  }
+  #timer {
+    position: relative;
+    width: 3%;
+    aspect-ratio: 6/20;
+    margin-top: 0.5%;
+    left: 93.3%;
+  }
+  #flaske {
+    position: absolute;
+    background-image: url(../illustrator/symbol_tid_fuld.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  #vin {
+    position: absolute;
+    background-image: url(../illustrator/symbol_tid.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    clip-path: inset(10% 0 0 0);
+  }
+  #lives {
+    position: absolute;
+    top: 24.4%;
+    left: 93.7%;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #points {
+    position: absolute;
+    top: 40.3%;
+    left: 93.7%;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #game_elements {
+    width: 100%;
+    position: absolute;
+  }
+
+  #vand_container {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 5/7;
+    cursor: pointer;
+  }
+
+  #vand_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(../illustrator/figur_vand.svg);
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  #vand_container2 {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 5/7;
+    cursor: pointer;
+  }
+
+  #vand_sprite2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../illustrator/figur_vand.svg);
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  #vand_container3 {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 5/7;
+    cursor: pointer;
+  }
+
+  #vand_sprite3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../illustrator/figur_vand.svg);
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  #oel_container {
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 7/7;
+    cursor: pointer;
+  }
+  #oel_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(../illustrator/figur_oel.svg);
+    background-size: cover;
+    cursor: pointer;
+  }
+  #oel_container2 {
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 7/7;
+    cursor: pointer;
+  }
+  #oel_sprite2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../illustrator/figur_oel.svg);
+    background-size: cover;
+    cursor: pointer;
+  }
+  #cognac_container {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 7/13;
+    cursor: pointer;
+  }
+  #cognac_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(../illustrator/figur_cognac.svg);
+    background-size: cover;
+    cursor: pointer;
+  }
+  .pos1 {
+    left: 0%;
+    top: 0%;
+  }
+  .pos2 {
+    left: 11%;
+    top: 0%;
+  }
+  .pos3 {
+    left: 30%;
+    top: 0%;
+  }
+  .pos4 {
+    left: 5%;
+    top: 0%;
+  }
+  .pos5 {
+    left: 14%;
+    top: 0%;
+  }
+  .pos6 {
+    left: 22%;
+    top: 0%;
+  }
+  .pos7 {
+    left: 9%;
+    top: 0%;
+  }
+  .pos8 {
+    left: 20%;
+    top: 0%;
+  }
+  .pos9 {
+    left: 12%;
+    top: 0%;
+  }
+  .pos10 {
+    left: 16%;
+    top: 0%;
+  }
+  #start {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: url(../illustrator/startskærm.svg);
+    background-size: cover;
+    /* display: none; */
+  }
+  #gameover {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* display: none; */
+    background-image: url(../illustrator/taberskaerm.svg);
+    background-size: cover;
+  }
+  #levelcomplete {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* display: none; */
+    background-image: url(../illustrator/vinderskaerm.svg);
+    background-size: cover;
+  }
+  #instruktion {
+    width: 220%;
+    height: 225%;
+    position: absolute;
+    top: -30%;
+    left: 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../illustrator/infoskaerm.svg);
+  }
+  .hide {
+    display: none;
+  }
+  #startknap1 {
+    position: absolute;
+    background-size: cover;
+    width: 30%;
+    background-image: url(../illustrator/symbol_startknap.svg);
+    aspect-ratio: 30/10;
+    top: 78%;
+    left: 35%;
+    cursor: pointer;
+  }
+  #startknap2 {
+    position: absolute;
+    background-size: cover;
+    width: 12%;
+    background-image: url(../illustrator/symbol_startknap.svg);
+    aspect-ratio: 30/10;
+    top: 48.5%;
+    left: 31.8%;
+    cursor: pointer;
+  }
+  #startigen1 {
+    position: absolute;
+    background-size: cover;
+    width: 7%;
+    background-image: url(../illustrator/symbol_startigenknap.svg);
+    aspect-ratio: 9.95/9.6;
+    top: 79%;
+    left: 25%;
+    cursor: pointer;
+  }
+
+  #startigen2 {
+    position: absolute;
+    background-size: cover;
+    width: 12%;
+    background-image: url(../illustrator/symbol_startigenknap.svg);
+    aspect-ratio: 9.95/9.6;
+    top: 45%;
+    left: 15%;
+    cursor: pointer;
+  }
+
+  nav {
+    font-family: monospace;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  a {
+    color: gray;
+    font-family: monospace;
+  }
+
+  a:hover {
+    color: blue;
+  }
+
+  a:active {
+    color: gray;
+  }
+
+  h1 {
+    font-family: monospace;
+    font-size: 20px;
+  }
+  h2 {
+    font-family: monospace;
+    font-size: 15px;
+    margin-bottom: 0.5%;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

@@ -1,0 +1,70 @@
+nav {
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: gray;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 40px;
+}
+h2 {
+  font-family: monospace;
+  font-size: 23px;
+}
+
+.bar {
+  width: 20%;
+}
+.bartender {
+  width: 20%;
+  margin-top: -50%;
+  margin-left: 22.5%;
+  margin-bottom: 2%;
+}
+.mand {
+  width: 18%;
+  margin-top: -50%;
+  margin-left: 45%;
+  margin-bottom: 2.5%;
+}
+.start {
+  width: 30%;
+}
+.vand {
+  width: 20%;
+  margin-top: -25%;
+  margin-bottom: 1%;
+  margin-left: 31%;
+}
+.øl_cog {
+  width: 20%;
+  margin-top: -25%;
+  margin-bottom: 3.5%;
+  margin-left: 53%;
+}
+.screen1 {
+  width: 50%;
+}
+.screen2 {
+  width: 50%;
+}
+.fuldmandstart {
+  width: 15%;
+}

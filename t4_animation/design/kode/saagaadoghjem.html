@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="saagaadoghjem.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <title>Spillet</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="saagaadoghjem.html">SPILLET</a></li>
+          <li><a href="ide.html">IDÉ</a></li>
+          <li><a href="teknik.html">TEKNIK</a></li>
+          <li><a href="grafik.html">GRAFIK</a></li>
+          <li><a href="assets.html">ASSETSLISTE</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="screen">
+        <div id="game">
+          <div id="game_background"></div>
+          <div id="game_elements">
+            <div id="vand_container" class="">
+              <div id="vand_sprite" class=""></div>
+            </div>
+            <div id="vand_container2" class="">
+              <div id="vand_sprite2" class=""></div>
+            </div>
+            <div id="vand_container3" class="">
+              <div id="vand_sprite3" class=""></div>
+            </div>
+            <div id="oel_container" class="">
+              <div id="oel_sprite" class=""></div>
+            </div>
+            <div id="oel_container2" class="">
+              <div id="oel_sprite2" class=""></div>
+            </div>
+            <div id="cognac_container" class="">
+              <div id="cognac_sprite" class=""></div>
+            </div>
+          </div>
+          <div id="game_foreground"></div>
+          <div id="game_ui">
+            <div id="timer">
+              <div id="vin"><div id="flaske"></div></div>
+            </div>
+            <div id="points">0</div>
+            <div id="lives">3</div>
+          </div>
+        </div>
+        <div id="start">
+          <div id="startknap1" class="pulse"></div>
+        </div>
+        <div id="instruktion">
+          <div id="startknap2" class="pulse"></div>
+        </div>
+        <div id="gameover">
+          <div id="startigen1" class="pulse"></div>
+        </div>
+        <div id="levelcomplete">
+          <div id="startigen2" class="pulse"></div>
+        </div>
+      </div>
+      <!-- tilføj audio elementer herunder: -->
+      <audio id="lyd_glas" src="../musik/glas.mp3" controls></audio>
+      <audio id="lyd_alarm" src="../musik/alarm.mp3" controls></audio>
+      <audio id="baggrundsmusik" src="../musik/baggrundsmusik.mp3" controls></audio>
+      <audio id="timesup" src="../musik/timesup.m4a" controls></audio>
+      <script src="saagaadoghjem.js"></script>
+    </main>
+    <footer>
+      <h1>Credits</h1>
+      <h2>Baggrundmusik:</h2>
+      <a href="https://freemusicarchive.org/music/eggy-toast/redaction/misunderstood-1/">Misunderstood – Eggy Toast</a>
+    </footer>
+  </body>
+</html>

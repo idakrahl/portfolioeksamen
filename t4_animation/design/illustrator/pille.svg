@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373 111.81">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: Impact, Impact;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 28.19px;
+      }
+
+      .cls-4 {
+        fill: #ff0;
+      }
+
+      .cls-5 {
+        fill: red;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        font-size: 30.42px;
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-4" x="121.25" y=".25" width="130.5" height="110.5"/>
+    <path d="M251.5,.5V110.5H121.5V.5H251.5m.5-.5H121V111H252V0h0Z"/>
+  </g>
+  <g>
+    <path class="cls-5" d="M252.25,110.75V.25h61.86c32.33,0,58.64,26.31,58.64,58.64,0,28.6-23.26,51.86-51.86,51.86h-68.64Z"/>
+    <path d="M314.11,.5c32.2,0,58.39,26.19,58.39,58.39,0,28.46-23.15,51.61-51.61,51.61h-68.39V.5h61.61m0-.5h-62.11V111h68.89c28.78,0,52.11-23.33,52.11-52.11h0c0-32.52-26.37-58.89-58.89-58.89h0Z"/>
+  </g>
+  <g>
+    <path class="cls-5" d="M58.89,110.75C26.56,110.75,.25,84.44,.25,52.11,.25,23.51,23.51,.25,52.11,.25H120.75V110.75H58.89Z"/>
+    <path d="M120.5,.5V110.5H58.89C26.69,110.5,.5,84.31,.5,52.11,.5,23.65,23.65,.5,52.11,.5H120.5m.5-.5H52.11C23.33,0,0,23.33,0,52.11H0c0,32.52,26.37,58.89,58.89,58.89h62.11V0h0Z"/>
+  </g>
+  <text class="cls-2" transform="translate(152.77 34.25)"><tspan class="cls-3" x="0" y="0">SOBER</tspan><tspan class="cls-6" x="72.44" y="0"> </tspan></text>
+  <text class="cls-1" transform="translate(172.14 66.1)"><tspan x="0" y="0">ME</tspan></text>
+  <text class="cls-1" transform="translate(174.06 102.49)"><tspan x="0" y="0">UP</tspan></text>
+</svg>

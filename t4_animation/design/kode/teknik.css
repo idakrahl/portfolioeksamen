@@ -1,0 +1,38 @@
+nav {
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: gray;
+}
+.aktivitetsdiagram {
+  width: 90%;
+}
+.statemachine {
+  width: 70%;
+  margin-top: 1.5%;
+}
+h1 {
+  font-family: monospace;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: monospace;
+  margin-top: 3%;
+  font-size: 23px;
+}

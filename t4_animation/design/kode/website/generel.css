@@ -1,0 +1,226 @@
+img {
+  max-width: 100%;
+}
+#forside {
+  background-image: url(/1semester/emnesite/images/FORSIDESTOR2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #000000;
+  background-size: cover;
+}
+#forside-nav > ul > li > a {
+  color: #ff13ff;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: monospace;
+  font-style: oblique;
+}
+
+#forside-nav > ul > li > a:hover {
+  color: #ff00a6;
+}
+#forside-nav > ul > li > a:active {
+  color: rgb(28, 28, 28);
+}
+
+#forside-nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #0000005e;
+  padding-right: 0cm;
+  padding-right: 0cm;
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#H1TM {
+  text-align: center;
+  font-family: monospace;
+  font-size: 13em;
+  color: #ff13ff;
+  font-style: oblique;
+  margin-top: 0em;
+}
+#H1TI {
+  text-align: center;
+  font-family: monospace;
+  font-size: 13em;
+  color: #41e7fe;
+  font-style: oblique;
+  margin-top: 0em;
+}
+
+#flyingDR {
+  width: 70%;
+  margin-top: -7em;
+  position: relative;
+  right: -150%;
+  animation: slide 4s infinite;
+}
+@keyframes slide {
+  0% {
+    right: -100%;
+  }
+  70% {
+    right: 100%;
+  }
+  70% {
+    right: 80%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+#theman-bg {
+  background-image: url(/1semester/emnesite/images/background.png);
+  padding-right: 4em;
+  margin-top: -1em;
+  background-size: contain;
+}
+#theiconbg {
+  background-image: url(/1semester/emnesite/images/background.png);
+  padding-right: 0em;
+  padding-left: 3.5em;
+  background-size: contain;
+  margin-top: 7em;
+}
+.col {
+  background-color: rgba(0, 0, 0, 0.614);
+  color: whitesmoke;
+  border: 0.3em solid rgb(85, 255, 47);
+  font-family: monospace;
+  font-style: oblique;
+  font-size: large;
+  padding: 1.5em;
+  margin-right: 5em;
+  margin-left: 5em;
+  line-height: 1cm;
+  margin-top: 6em;
+}
+.col2 {
+  padding-left: 1em;
+  margin-top: -5em;
+}
+.p1 {
+  background-color: rgba(0, 0, 0, 0.614);
+  color: whitesmoke;
+  font-family: monospace;
+  font-style: oblique;
+  font-size: 15px;
+  padding: 1.5em;
+  margin-right: 5em;
+  line-height: 1.2cm;
+}
+.p2 {
+  background-color: rgba(0, 0, 0, 0.614);
+  color: whitesmoke;
+  font-family: monospace;
+  font-style: oblique;
+  text-align: center;
+  font-size: 15px;
+  padding: 1.5em;
+  margin-left: 0cm;
+  margin-right: 5em;
+  margin-bottom: -10px;
+  line-height: 1.9cm;
+  list-style: none;
+}
+.p-m {
+  background-color: rgba(0, 0, 0, 0.614);
+  color: whitesmoke;
+  font-family: monospace;
+  font-style: oblique;
+  font-size: 15px;
+  padding: 1.5em;
+  margin-right: 5em;
+  line-height: 1cm;
+  text-align: center;
+  color: rgb(85, 255, 47);
+}
+#img {
+  margin-left: -2em;
+  width: 100%;
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+footer {
+  width: 2.8%;
+  opacity: 70%;
+  margin-top: 4.4cm;
+}
+#titel {
+  padding-top: 12em;
+  width: 100%;
+}
