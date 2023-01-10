@@ -128,7 +128,7 @@
   }
   img:hover {
     opacity: 90%;
-    transform: scale(105%);
+    transform: scale(1.1);
   }
   main {
     font-family: Arial, Helvetica, sans-serif;
