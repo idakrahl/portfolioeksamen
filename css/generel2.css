@@ -1,0 +1,836 @@
+@media (min-width: 800px) {
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-right: 2.5%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-top: -2.5%;
+  }
+
+  nav li a {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .back {
+    margin-left: 1%;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: blue;
+    font-style: italic;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 45%;
+  }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h3 {
+    font-size: 35px;
+    margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 5%;
+    text-decoration: underline;
+  }
+  h3:hover {
+    color: blue;
+    font-style: italic;
+  }
+  h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+  }
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .loes {
+    margin-top: 5%;
+  }
+  .xd {
+    margin-left: 39.5%;
+    margin-top: -2%;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .future_bg {
+    max-width: 70%;
+    margin-left: 26%;
+    margin-top: 6%;
+  }
+  .future_tshirt {
+    max-width: 70%;
+    margin-top: 6%;
+    margin-left: 0%;
+  }
+  .koncept_ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    margin-left: 0%;
+  }
+  .research {
+    max-width: 70%;
+    margin-top: 5%;
+    margin-left: 10%;
+    line-height: 1.5em;
+  }
+
+  .research h2 {
+    margin-bottom: 0%;
+  }
+  .research h5 {
+    margin-bottom: 0%;
+  }
+  .ig_tiktok {
+    margin-right: -5%;
+  }
+  .ig_tiktok h5 {
+    color: gray;
+    font-weight: lighter;
+    margin-bottom: 0%;
+  }
+  .andre_webshops {
+    color: gray;
+    font-weight: lighter;
+    margin-bottom: 0%;
+  }
+  .andre_webshops_img {
+    margin-left: 0%;
+
+    width: 50%;
+  }
+  .deskresearch_img {
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 55%;
+  }
+  .observation {
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+  .observation ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    margin-left: -5%;
+  }
+
+  .observation_img {
+    margin-top: 25%;
+    margin-right: 20%;
+    width: 100%;
+  }
+  .interview {
+    margin-right: 10%;
+  }
+  .interview_indsigt {
+    margin-top: 2%;
+    width: 90%;
+    margin-left: -2%;
+  }
+  .interview ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    margin-left: -9%;
+    list-style: none;
+  }
+  .survey {
+    margin-left: 10%;
+  }
+  .survey_img {
+    margin-left: 0%;
+  }
+  .survey ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    margin-left: -9%;
+    list-style: none;
+  }
+  .sketch {
+    margin-left: 5%;
+    margin-top: 20%;
+    max-width: 90%;
+  }
+  .decide {
+    margin-left: 5%;
+    margin-top: 3%;
+
+    max-width: 90%;
+  }
+  .sketch_decide {
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+  .sketch_decide p {
+    margin-right: -36%;
+  }
+  .decide_fasen {
+    margin-top: 15%;
+  }
+  .future {
+    width: 120%;
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  .break {
+    color: rgba(0, 0, 0, 0.117);
+    margin-top: 7%;
+  }
+  .indledning {
+    margin-right: 8%;
+    margin-left: 8%;
+    font-weight: bold;
+  }
+  .ux_research {
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 100%;
+    border: 0.5px solid black;
+  }
+  .research_tekst {
+    margin-right: -40%;
+  }
+  .ris ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -12%;
+    margin-top: 5%;
+  }
+  .ris {
+    margin-top: 2%;
+    border: 0.5px solid rgba(0, 0, 0, 0.299);
+    border-radius: 20px;
+    padding: 0.5em;
+  }
+  .ros {
+    margin-left: 20%;
+    margin-top: 2%;
+    border: 0.5px solid rgba(0, 0, 0, 0.299);
+    border-radius: 20px;
+    padding: 0.5em;
+  }
+  .ros ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -12%;
+    margin-top: 5%;
+  }
+  .grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  img {
+    max-width: 100%;
+    margin-left: 15%;
+  }
+
+  .h_web {
+    margin-left: 40%;
+  }
+  .w_l_h {
+    margin-bottom: 6%;
+  }
+  .wire_layout {
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .html_css {
+    margin-left: 17%;
+    width: 75%;
+  }
+  .tekstdel1 {
+    margin-right: 40%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .tekstdel2 {
+    margin-left: 20%;
+    line-height: 1.5em;
+  }
+  .tekstdel2 p {
+    line-height: 2em;
+  }
+  .tekstdel1 p {
+    line-height: 2em;
+  }
+  .tekstdel3 {
+    margin-right: 25%;
+    margin-top: -3%;
+  }
+  .tekstdel3 p {
+    line-height: 2em;
+  }
+  .emne_h {
+    margin-left: 40%;
+  }
+  .postmodernisme {
+    width: 70%;
+    margin-top: 17%;
+    margin-left: 5%;
+  }
+  .rodzilla_img {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .mood_style img {
+    width: 80%;
+    padding: 0.5em;
+  }
+  .photoshop {
+    width: 80%;
+    margin-top: 15%;
+    margin-bottom: 3%;
+    margin-left: 7%;
+  }
+  .layoutogwire {
+    width: 60%;
+    margin-left: 15%;
+  }
+  .tabt {
+    margin-left: 0%;
+  }
+  #videoen1 {
+    width: 90%;
+    margin-top: -15%;
+    margin-left: -4%;
+  }
+  .respons_tekst {
+    margin-left: -8%;
+  }
+  .respons {
+    margin-left: 0%;
+    border: solid black 0.5px;
+  }
+  .emne_site {
+    margin: 8%;
+  }
+  .spilopgave {
+    margin-top: -8%;
+    margin-left: -18%;
+  }
+  .spil_under {
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: -2%;
+    margin-bottom: 5%;
+    margin-left: 54%;
+  }
+  .spillet {
+    margin: 10%;
+  }
+  .joan_cornella {
+    width: 80%;
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  .jc_stil {
+    margin-left: -10%;
+  }
+  .spilide {
+    margin-bottom: 0%;
+  }
+  .papirproto {
+    margin-bottom: 0%;
+  }
+  .papirprototype {
+    width: 85%;
+    margin-left: 8%;
+    border: rgba(0, 0, 0, 0.361) solid 0.5px;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  .aktivitet {
+    margin-left: 0%;
+    width: 90%;
+    margin-top: 2%;
+  }
+  .aktivitet_p {
+    margin-bottom: 4%;
+  }
+  .state {
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .spilelementer {
+    margin-right: 8%;
+    margin-bottom: 5%;
+  }
+  .gamescreen {
+    margin-right: 16%;
+  }
+  .underkategori {
+    color: gray;
+    font-weight: lighter;
+  }
+  .designs {
+    width: 80%;
+    margin-left: 0%;
+  }
+  .spilskaerm {
+    margin-left: 0%;
+    margin-bottom: 5%;
+  }
+  .java {
+    margin-right: 10%;
+  }
+  .javascript {
+    width: 80%;
+    margin-left: 4%;
+    margin-top: 9%;
+  }
+  .opgaveloes {
+    margin-left: 25%;
+    margin-top: 7%;
+  }
+  .pilot {
+    margin-left: 38%;
+    margin-top: -3%;
+  }
+  .videoproduktion {
+    margin-top: 3%;
+    margin-right: 5%;
+  }
+  #video_file {
+    width: 95%;
+    margin-top: 19%;
+    margin-left: 5%;
+  }
+
+  #controls {
+    display: flex;
+    width: 35%;
+    margin-top: -6%;
+    margin-left: 5%;
+  }
+  #play,
+  #stop {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.662);
+    width: 15%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+  }
+  #play {
+    background-size: 75%;
+    background-image: url("../t5_indhold/pilotsite/billeder/play.svg");
+  }
+  #stop {
+    background-size: 70%;
+    background-image: url("../t5_indhold/pilotsite/billeder/stop.svg");
+  }
+  .pilot_img {
+    margin-left: 0%;
+    margin-bottom: 5%;
+    width: 90%;
+  }
+  .pilot_layout {
+    margin-left: 0%;
+  }
+  .billed_tekst {
+    margin-right: 14%;
+    margin-top: 8%;
+  }
+  .layout_tekst {
+    margin-left: 5%;
+    margin-top: 8%;
+  }
+  .redesign {
+    margin-left: 0%;
+    margin-bottom: -2%;
+  }
+  .redesign2 {
+    margin-left: 0%;
+    margin-bottom: 5%;
+    font-style: italic;
+    font-weight: lighter;
+  }
+  .virksomheden {
+    margin-right: 15%;
+  }
+  .redesign_padel {
+    margin-left: 0%;
+    width: 90%;
+    margin-top: 5%;
+  }
+  .gruppekontrakt {
+    margin-left: -2%;
+  }
+  .trello_tekst {
+    margin-bottom: 8%;
+    margin-top: -2.5%;
+  }
+  .trello_img {
+    margin-top: -4%;
+    margin-left: 0%;
+    width: 80%;
+  }
+  .femsek {
+    margin-left: 2%;
+    margin-top: 15%;
+  }
+  .r_t {
+    margin-bottom: 1%;
+  }
+  .research_padel {
+    margin-left: 0%;
+    margin-bottom: 8%;
+    width: 80%;
+    border: solid 0.5px rgba(0, 0, 0, 0.232);
+    border-radius: 10px;
+    margin-top: 8%;
+  }
+  .h_research {
+    margin-bottom: -1.5%;
+  }
+  .research_tekst {
+    margin-top: -4%;
+    margin-left: -10%;
+    margin-right: 0%;
+  }
+  .survey_indsigter li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+
+    margin-left: -5%;
+  }
+  .research_tekst2 {
+    margin-top: -2%;
+  }
+  .h_test {
+    margin-bottom: -1.5%;
+    margin-right: 5%;
+    margin-top: 7%;
+  }
+  .pic_vid {
+    margin-left: 0%;
+    width: 85%;
+  }
+  .pic_vid_tekst {
+    margin-left: -8%;
+    margin-top: 0%;
+    margin-right: 5%;
+  }
+  .pic_vid_tekst2 {
+    margin-top: -1.75%;
+    margin-left: 2.25%;
+  }
+  .xd_proto {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .portfolio_under {
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: -2.5%;
+    margin-bottom: 8%;
+    margin-left: 46.5%;
+  }
+  .sitemap_portfolio {
+    width: 90%;
+    margin-left: 0%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+  }
+  .sitemap_portfolio_tekst {
+    margin-left: 0%;
+  }
+  .layoutdiagram_porto {
+    width: 80%;
+    margin-left: 0%;
+    margin-bottom: 12%;
+    margin-top: 1%;
+  }
+  .layoutdiagram_portfolio2 {
+    width: 85%;
+    margin-left: 0%;
+  }
+  .layoutdiagram_porto_tekst {
+    margin-right: 8%;
+  }
+  .xd_prototype_portfolio {
+    margin-left: -3%;
+    margin-top: 2%;
+    width: 100%;
+  }
+  .xd_prototype_portfolio_tekst {
+    margin-left: 0%;
+    margin-right: 10%;
+  }
+
+  .media_queries {
+    margin-left: -2%;
+    width: 80%;
+  }
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    font-size: 12px;
+  }
+
+  footer ul {
+    list-style: none;
+    line-height: 1.25em;
+    justify-content: end;
+    display: grid;
+    text-align: right;
+  }
+
+  .ilk {
+    font-weight: lighter;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-right: 2.5%;
+  }
+  nav ul {
+    list-style: none;
+    margin-top: -2.5%;
+  }
+
+  nav li a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1.5%;
+  }
+
+  main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .photoshop {
+    margin-top: 5%;
+  }
+
+  .wire_layout {
+    margin-top: -10%;
+  }
+  .html_css {
+    margin-top: -5%;
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+  h2 {
+    margin-top: 10%;
+  }
+  .portfolio_under {
+    margin-top: -4%;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .spil_under {
+    margin-top: -4%;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .break {
+    color: rgba(0, 0, 0, 0.117);
+    margin-top: 7%;
+  }
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .layoutdiagram {
+    margin-top: -10%;
+  }
+  .tekstdel1 {
+    grid-row: 1/2;
+    margin-top: 5%;
+  }
+  .postmodernisme {
+    margin-top: 2%;
+  }
+  .mood_style {
+    grid-row: 2/2;
+    margin-top: -30%;
+  }
+  .deskresearch_img {
+    margin-top: -35%;
+  }
+  .konklusion {
+    margin-top: -45%;
+  }
+  .last {
+    margin-top: -40%;
+  }
+  .xd {
+    margin-top: -5%;
+  }
+  .tekstdel3 {
+    margin-top: -80%;
+  }
+  .java {
+    margin-top: -25%;
+    margin-left: 0%;
+  }
+  .java p {
+    margin-right: 20%;
+  }
+
+  .javascript {
+    width: 80%;
+    margin-top: -2%;
+  }
+  .research_padel {
+    grid-row: 2/2;
+  }
+  .pic_vid {
+    grid-row: 2/2;
+    margin-top: 5%;
+  }
+  .interview_indsigt {
+    width: 90%;
+  }
+  .sketch_decide_img {
+    grid-row: 2/2;
+  }
+  .sitemap_portfolio {
+    grid-row: 2/2;
+  }
+  .xd_prototype_portfolio {
+    grid-row: 2/2;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  #controls {
+    display: flex;
+    width: 35%;
+    margin-top: -10%;
+    margin-left: 0%;
+  }
+  #play,
+  #stop {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.662);
+    width: 15%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+  }
+  #play {
+    background-size: 75%;
+    background-image: url("../t5_indhold/pilotsite/billeder/play.svg");
+  }
+  #stop {
+    background-size: 70%;
+    background-image: url("../t5_indhold/pilotsite/billeder/stop.svg");
+  }
+  #video_file {
+    max-width: 100%;
+  }
+  .billed_tekst {
+    margin-top: -40%;
+  }
+  .layout_tekst {
+    margin-top: -2%;
+  }
+  .redesign2 {
+    margin-top: -5%;
+    font-size: 29px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .gruppe_tekst {
+    margin-top: -25%;
+  }
+  .h_test {
+    margin-top: -80%;
+  }
+  .femsek {
+    margin-top: -28%;
+  }
+
+  .xd_proto {
+    margin-top: -7%;
+  }
+  .back {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: blue;
+    font-style: italic;
+  }
+  .wire_layout {
+    margin-bottom: -10%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .media_queries_tekst {
+    margin-top: -20%;
+  }
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    font-size: 12px;
+  }
+
+  footer ul {
+    list-style: none;
+    line-height: 1.25em;
+    justify-content: end;
+    display: grid;
+    text-align: right;
+  }
+
+  .ilk {
+    font-weight: lighter;
+  }
+}
